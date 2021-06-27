@@ -1,0 +1,16 @@
+server:
+  port: 3333
+
+zuul:
+  routes:
+    api-server:
+      path: /api/**
+      url: http://127.0.0.1:3001
+      stripPrefix: true
+
+hemjtk:
+  issuer: "hem"
+  publicKeyPath: /Users/mac/src/hem/key/public_key.pem
+#  jwtRS256.key.pub
+  privateKeyPath: /Users/mac/src/hem/key/private_key.pem
+#  jwtRS256.key

@@ -1,0 +1,18 @@
+{
+  "properties": [
+    {
+      "name": "hemjtk.issuer",
+      "type": "java.lang.String",
+      "description": "Description for hemjtk.issuer."
+    },
+    {
+      "name": "hemjtk.publicKeyPath",
+      "type": "java.lang.String",
+      "description": "Description for hemjtk.publicKeyPath."
+    },
+    {
+      "name": "hemjtk.privateKeyPath",
+      "type": "java.lang.String",
+      "description": "Description for hemjtk.privateKeyPath."
+    }
+  ] }
